@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(78, 76, 76);
+   color: cornsilk;
+   width:1024px;
+   margin:0 auto;
+}
+#id1{
+    float: right;
+}
+
+img{
+    width: 40%;
+}
+h1{
+    font-size: 72px;
+    color: rgba(148, 208, 243, 0.699);
+}
+h2{
+ 
+    color: rgba(148, 208, 243, 0.699);
+}
+
+#p1{
+    font-style: italic;
+}
+a:link { text-decoration: none; 
+color: red;}
+
+
+a:visited { text-decoration: none; 
+color: blue;}
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+#id2{
+    float: right;
+}
+   #id5{
+       float: right;
+   }
+   b{
+       color: sandybrown;
+   }
