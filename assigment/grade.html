@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+    
+        <h2 id="head">Retrieve your grade</h2>
+ 
+    
+    <div id="form1">
+
+        <form action="http://mumstudents.org/params.php">
+        <label for="fname">Students name:</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Students Id:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="">Choose Assignment</label>
+        <select itemid="drop" name="Assignment" id="hi" >
+            <option value="Home Page">Home Page</option>
+            <option value="Pie">Pie</option>
+            <option value="About Me">About Me</option>
+            <option value="Movie">Movie</option>
+            <option value="Grades Excersice">Grades Excersice</option>
+            <option value="HTML forms">HTML forms</option>
+
+        </select>
+        <div id="entry">
+        <label for="Select">Select Entry</label>
+
+        <input type="radio" name="August" id="">
+        <label for="Select">August</label>
+        <input type="radio" name="november" id="">
+        <label for="Select">November</label>
+        <input type="radio" name="February" id="">
+        <label for="Select">February</label>
+        <input type="radio" name="May" id="">
+        <label for="Select">May</label>
+
+        </div>
+       <div id="confirm"> <input type="checkbox" name="confirm" id="">
+        <label for="">I am confirming that I am looking for my own Grade!</label>
+ </div>
+      
+        <div id="button">
+            <input type="submit" value="Get Grade">
+        </div>
+
+      
+        
+      
+      </form> 
+    </div>
+
+
+
+
+</body>
+</html>
